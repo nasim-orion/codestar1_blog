@@ -1,1 +1,17 @@
+Virtual environment - never commit this, recreate it from requirements.txt
 .venv/
+venv/
+env/
+
+Python
+pycache/
+*.pyc
+
+Django local database - recreated by migrations
+db.sqlite3
+
+macOS
+.DS_Store
+
+Personal notes/guide, not part of the project itself
+documents/
